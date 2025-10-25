@@ -1,7 +1,7 @@
 # Dynasty's Digital Debacle
 **-by The Bias Desk**
 
-<img src="static/images/congresshq.jpg" alt="Logo" width="600">
+<img src="static/images/congresshq.jpg" alt="Logo" width="400">
 
 NEW DELHI — The Congress party, which once ruled India for decades, is now struggling to rule its own Twitter account? 
 
@@ -70,5 +70,6 @@ A political party that can't manage its Twitter account probably can't manage a 
 
 As a former Congress minister famously said (off record, of course):
 > "We have too many captains, no sailors, and the ship is busy sending mixed signals."
+
 
 The deleted tweet may be gone from the platform, but it's permanently etched in India's political memory — another reminder that in the digital age, competence can't be faked.
