@@ -1,7 +1,7 @@
 # Sweet Poison
 **-by The Bias Desk**
 
-<img src="static/images/syrup.jpg" alt="Logo" width="600">
+<img src="static/images/syrup.jpg" alt="Logo" width="400">
 
 India — the pharmacy of the world — has a bitter aftertaste to swallow.  
 
@@ -63,5 +63,6 @@ A nation that can land **Chandrayaan on the Moon's south pole** should be able t
 But as one ex-regulator quipped to us off record:  
 
 > "In India, the medicine industry runs like our traffic — everyone honks about rules, but nobody stops for them."  
+
 
 The syrup may be recalled, but the stain on India's pharmaceutical reputation? That'll take more than a quick rinse.
