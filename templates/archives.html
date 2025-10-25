@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Archives - Bias.{% endblock %}
+
+{% block content %}
+<div class="section-header">
+    <h2>Archives</h2>
+    <p>All previous news and articles organized by date and section.</p>
+</div>
+
+<div class="archives-container">
+    {% if articles %}
+        {% for article in articles %}
+        <div class="archive-item">
+            <div class="archive-meta">
+                <span class="archive-date">{{ article.date.strftime('%B %d, %Y') }}</span>
+                <span class="archive-section">{{ article.section }}</span>
+            </div>
+            <h3 class="archive-title">
+                <a href="{{ url_for('view_article', filename=article.filename) }}">
+                    {{ article.title }}
+                </a>
+            </h3>
+        </div>
+        {% endfor %}
+    {% else %}
+        <div class="no-articles">
+            <p>No archived articles available.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

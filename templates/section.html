@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section_title }} - Bias.{% endblock %}
+
+{% block content %}
+<div class="section-header">
+    <h2>{{ section_title }}</h2>
+</div>
+
+<div class="articles-container">
+    {% if articles %}
+        {% for article in articles %}
+        <article class="article">
+            <div class="article-content">
+                {{ article.content | safe }}
+            </div>
+            <div class="article-meta">
+                <span class="article-date">{{ article.date.strftime('%B %d, %Y') }}</span>
+            </div>
+        </article>
+        {% endfor %}
+    {% else %}
+        <div class="no-articles">
+            <p>No articles available in this section.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
